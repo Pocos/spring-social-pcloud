@@ -15,7 +15,7 @@ public class AbstractPCloudOperations {
 
 	protected void requireAuthorization() {
 		if (!isAuthorized) {
-			throw new MissingAuthorizationException("live");
+			throw new MissingAuthorizationException("pcloud");
 		}
 	}
 

@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 
 public class UserTemplate extends AbstractPCloudOperations implements UserOperations{
 	private final RestTemplate restTemplate;
-	public UserTemplate(PCloudTemplate liveTemplate, RestTemplate restTemplate, boolean authorized) {
+	public UserTemplate(PCloudTemplate pcloudTemplate, RestTemplate restTemplate, boolean authorized) {
 		super(authorized);
 		this.restTemplate = restTemplate;
 	}

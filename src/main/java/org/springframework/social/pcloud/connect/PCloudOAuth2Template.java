@@ -1,9 +1,11 @@
 package org.springframework.social.pcloud.connect;
 
-import org.springframework.social.oauth2.GrantType;
-import org.springframework.social.oauth2.OAuth2Parameters;
 import org.springframework.social.oauth2.OAuth2Template;
-
+/**
+ * 
+ * @author Andrea M.G. Pocorobba
+ *
+ */
 public class PCloudOAuth2Template extends OAuth2Template{
 
 	private static String AUTHORIZE_URL = "https://my.pcloud.com/oauth2/authorize";
